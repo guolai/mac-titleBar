@@ -20,8 +20,8 @@ NS_INLINE bool INRunningLion() {
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-    [[NSColor colorWithDeviceRed:22.0f/255.0f green:188.0f/255.0f blue:92.0f/255.0f alpha:1.0] set];
-//    [[NSColor clearColor] set];
+//    [[NSColor colorWithDeviceRed:22.0f/255.0f green:188.0f/255.0f blue:92.0f/255.0f alpha:1.0] set];
+    [[NSColor clearColor] set];
     NSRectFill(dirtyRect);
 }
 @end
